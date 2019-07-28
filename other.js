@@ -1,6 +1,8 @@
 require("module");
 console.log("other.js");
 
-const myName = "Katleho Khanye";
+const fullName = (firstname, surname) => {
+    return firstname +  " " + surname;
+}
 
-module.exports = myName;
+module.exports = fullName;

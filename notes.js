@@ -1,3 +1,3 @@
-const myName = require("./other.js");
+const fullName = require("./other.js");
 
-console.log(myName);
+console.log("Fullname : " + fullName("Katleho", "Khanye"));
