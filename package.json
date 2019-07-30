@@ -1,0 +1,25 @@
+{
+  "name": "notesapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "notes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "node start.js",
+    "start": "node notes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senseiakhanye/notesapp.git"
+  },
+  "author": "Katleho Khanye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senseiakhanye/notesapp/issues"
+  },
+  "homepage": "https://github.com/senseiakhanye/notesapp#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "validator": "^11.1.0"
+  }
+}
